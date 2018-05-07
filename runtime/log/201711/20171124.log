@@ -1,0 +1,11 @@
+2017-11-24 23:56:08|ERROR|App.Course.GetCourse|PDOException: Unknown column 'undefined' in 'where clause' in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(930): NotORM_Result->query('SELECT `c_id`, ...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(917): NotORM_Result->queryRows('SELECT `c_id`, ...', Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Course.php(18): NotORM_Result->queryAll('SELECT `c_id`, ...')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Course.php(11): App\Model\Course->getList('undefined')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Course.php(23): App\Domain\Course->getList('undefined')
+#5 [internal function]: App\Api\Course->getCourse()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}

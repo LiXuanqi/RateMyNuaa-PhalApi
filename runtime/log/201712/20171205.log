@@ -1,0 +1,180 @@
+2017-12-05 16:21:10|ERROR|App.User.getSsoOauthInfo|PDOException: Table 'rate.user' doesn't exist in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT `user_id...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(886): NotORM_Result->execute()
+#2 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(874): NotORM_Result->fetchRow('')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Model/User.php(45): NotORM_Result->fetchOne()
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Domain/User.php(21): App\Model\User->getUserById(Array)
+#5 /Users/lixuanqi/Github/rate/backend/src/app/Api/User.php(31): App\Domain\User->getSsoOauthInfo()
+#6 [internal function]: App\Api\User->getSsoOauthInfo()
+#7 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#8 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2017-12-05 16:21:12|ERROR|App.User.getSsoOauthInfo|PDOException: Table 'rate.user' doesn't exist in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT `user_id...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(886): NotORM_Result->execute()
+#2 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(874): NotORM_Result->fetchRow('')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Model/User.php(45): NotORM_Result->fetchOne()
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Domain/User.php(21): App\Model\User->getUserById(Array)
+#5 /Users/lixuanqi/Github/rate/backend/src/app/Api/User.php(31): App\Domain\User->getSsoOauthInfo()
+#6 [internal function]: App\Api\User->getSsoOauthInfo()
+#7 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#8 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2017-12-05 16:25:54|ERROR|App.User.getSsoOauthInfo|PDOException: Unknown column 'username' in 'field list' in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT `user_id...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(886): NotORM_Result->execute()
+#2 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(874): NotORM_Result->fetchRow('')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Model/User.php(45): NotORM_Result->fetchOne()
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Domain/User.php(21): App\Model\User->getUserById(Array)
+#5 /Users/lixuanqi/Github/rate/backend/src/app/Api/User.php(31): App\Domain\User->getSsoOauthInfo()
+#6 [internal function]: App\Api\User->getSsoOauthInfo()
+#7 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#8 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2017-12-05 16:25:55|ERROR|App.User.getSsoOauthInfo|PDOException: Unknown column 'username' in 'field list' in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(810): NotORM_Result->query('SELECT `user_id...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(886): NotORM_Result->execute()
+#2 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(874): NotORM_Result->fetchRow('')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Model/User.php(45): NotORM_Result->fetchOne()
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Domain/User.php(21): App\Model\User->getUserById(Array)
+#5 /Users/lixuanqi/Github/rate/backend/src/app/Api/User.php(31): App\Domain\User->getSsoOauthInfo()
+#6 [internal function]: App\Api\User->getSsoOauthInfo()
+#7 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#8 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2017-12-05 16:26:23|ERROR|App.User.getSsoOauthInfo|PDOException: Table 'rate.user_group' doesn't exist in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(930): NotORM_Result->query('SELECT `user_gr...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(917): NotORM_Result->queryRows('SELECT `user_gr...', Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/User.php(49): NotORM_Result->queryAll('SELECT `user_gr...')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/User.php(26): App\Model\User->getUserGroup('1')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/User.php(31): App\Domain\User->getSsoOauthInfo()
+#5 [internal function]: App\Api\User->getSsoOauthInfo()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 16:26:24|ERROR|App.User.getSsoOauthInfo|PDOException: Table 'rate.user_group' doesn't exist in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(930): NotORM_Result->query('SELECT `user_gr...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(917): NotORM_Result->queryRows('SELECT `user_gr...', Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/User.php(49): NotORM_Result->queryAll('SELECT `user_gr...')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/User.php(26): App\Model\User->getUserGroup('1')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/User.php(31): App\Domain\User->getSsoOauthInfo()
+#5 [internal function]: App\Api\User->getSsoOauthInfo()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 19:24:45|ERROR|App.Course.GetCourseById|PDOException: Unknown column 'undefined' in 'where clause' in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(930): NotORM_Result->query('SELECT `c_id`, ...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(917): NotORM_Result->queryRows('SELECT `c_id`, ...', Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Course.php(18): NotORM_Result->queryAll('SELECT `c_id`, ...')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Course.php(11): App\Model\Course->getCourseById('undefined')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Course.php(32): App\Domain\Course->getCourseById('undefined')
+#5 [internal function]: App\Api\Course->getCourseById()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 19:27:40|ERROR|App.Course.GetCourseById|PDOException: Unknown column 'undefined' in 'where clause' in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(930): NotORM_Result->query('SELECT `c_id`, ...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(917): NotORM_Result->queryRows('SELECT `c_id`, ...', Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Course.php(18): NotORM_Result->queryAll('SELECT `c_id`, ...')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Course.php(11): App\Model\Course->getCourseById('undefined')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Course.php(32): App\Domain\Course->getCourseById('undefined')
+#5 [internal function]: App\Api\Course->getCourseById()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 19:27:49|ERROR|App.Course.GetCourseById|PDOException: Unknown column 'undefined' in 'where clause' in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(930): NotORM_Result->query('SELECT `c_id`, ...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(917): NotORM_Result->queryRows('SELECT `c_id`, ...', Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Course.php(18): NotORM_Result->queryAll('SELECT `c_id`, ...')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Course.php(11): App\Model\Course->getCourseById('undefined')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Course.php(32): App\Domain\Course->getCourseById('undefined')
+#5 [internal function]: App\Api\Course->getCourseById()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 20:40:01|ERROR|App.Comment.SubmitComment|PDOException: Column 'cc_userid' cannot be null in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(22): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment('\xE8\xAF\x95\xE8\xAF\x95\xE6\x9C\x89\xE6\xB2\xA1\xE6\x9C\x89...', '1', '4', '2', '12', '1', '2017-12-05', '\xE9\x97\xAD\xE5\x8D\xB7', NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(36): App\Domain\Comment->submitComment('\xE8\xAF\x95\xE8\xAF\x95\xE6\x9C\x89\xE6\xB2\xA1\xE6\x9C\x89...', '1', '4', '2', '12', '1', '2017-12-05', '\xE9\x97\xAD\xE5\x8D\xB7', NULL)
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 20:41:00|ERROR|App.Comment.SubmitComment|PDOException: Column 'cc_content' cannot be null in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(22): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment(NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-05', NULL, NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(36): App\Domain\Comment->submitComment(NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-05', NULL, NULL)
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 21:02:43|ERROR|App.Comment.SubmitComment|PDOException: Column 'cc_content' cannot be null in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(22): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment(NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-05', NULL, NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(39): App\Domain\Comment->submitComment(NULL, NULL, NULL, NULL, NULL, NULL, '2017-12-05', NULL, NULL)
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 21:15:12|ERROR|App.Course.GetCourseById|PDOException: Unknown column 'undefined' in 'where clause' in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(930): NotORM_Result->query('SELECT `c_id`, ...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(917): NotORM_Result->queryRows('SELECT `c_id`, ...', Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Course.php(18): NotORM_Result->queryAll('SELECT `c_id`, ...')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Course.php(11): App\Model\Course->getCourseById('undefined')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Course.php(32): App\Domain\Course->getCourseById('undefined')
+#5 [internal function]: App\Api\Course->getCourseById()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 22:26:23|ERROR|App.Report.ReportComment|PDOException: Data truncated for column 'r_commentid' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO rep...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Report.php(13): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Report.php(11): App\Model\Report->reportComment('45reporterId=1', NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Report.php(27): App\Domain\Report->reportComment('45reporterId=1', NULL)
+#5 [internal function]: App\Api\Report->reportComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 22:29:40|ERROR|App.Report.ReportComment|PDOException: Data truncated for column 'r_commentid' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO rep...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Report.php(13): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Report.php(11): App\Model\Report->reportComment('45reporterId=1', NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Report.php(27): App\Domain\Report->reportComment('45reporterId=1', NULL)
+#5 [internal function]: App\Api\Report->reportComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-05 22:29:57|ERROR|App.Report.ReportComment|PDOException: Data truncated for column 'r_commentid' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO rep...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Report.php(13): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Report.php(11): App\Model\Report->reportComment('46reporterId=1', NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Report.php(27): App\Domain\Report->reportComment('46reporterId=1', NULL)
+#5 [internal function]: App\Api\Report->reportComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}

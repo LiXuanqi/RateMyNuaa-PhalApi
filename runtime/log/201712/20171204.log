@@ -1,0 +1,33 @@
+2017-12-04 21:15:56|ERROR|App.Course.GetCourseById|PDOException: Unknown column 'undefined' in 'where clause' in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(930): NotORM_Result->query('SELECT `c_id`, ...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(917): NotORM_Result->queryRows('SELECT `c_id`, ...', Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Course.php(18): NotORM_Result->queryAll('SELECT `c_id`, ...')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Course.php(11): App\Model\Course->getCourseById('undefined')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Course.php(32): App\Domain\Course->getCourseById('undefined')
+#5 [internal function]: App\Api\Course->getCourseById()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-04 23:22:24|ERROR|App.Course.GetCourseByType|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(930): NotORM_Result->query('SELECT `c_id`, ...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(917): NotORM_Result->queryRows('SELECT `c_id`, ...', Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Course.php(24): NotORM_Result->queryAll('SELECT `c_id`, ...')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Course.php(14): App\Model\Course->getCourseByType(NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Course.php(35): App\Domain\Course->getCourseByType(NULL)
+#5 [internal function]: App\Api\Course->getCourseByType()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-04 23:22:35|ERROR|App.Course.GetCourseByType|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(930): NotORM_Result->query('SELECT `c_id`, ...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(917): NotORM_Result->queryRows('SELECT `c_id`, ...', Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Course.php(24): NotORM_Result->queryAll('SELECT `c_id`, ...')
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Course.php(14): App\Model\Course->getCourseByType(NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Course.php(35): App\Domain\Course->getCourseByType(NULL)
+#5 [internal function]: App\Api\Course->getCourseByType()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}

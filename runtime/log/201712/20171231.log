@@ -1,0 +1,88 @@
+2017-12-31 15:00:45|ERROR|App.Report.ReportComment|PDOException: Incorrect integer value: 'undefined' for column 'r_reporterid' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO rep...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Report.php(13): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Report.php(11): App\Model\Report->reportComment('60', 'undefined')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Report.php(27): App\Domain\Report->reportComment('60', 'undefined')
+#5 [internal function]: App\Api\Report->reportComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-31 15:00:46|ERROR|App.Report.ReportComment|PDOException: Incorrect integer value: 'undefined' for column 'r_reporterid' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO rep...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Report.php(13): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Report.php(11): App\Model\Report->reportComment('60', 'undefined')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Report.php(27): App\Domain\Report->reportComment('60', 'undefined')
+#5 [internal function]: App\Api\Report->reportComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-31 15:00:46|ERROR|App.Report.ReportComment|PDOException: Incorrect integer value: 'undefined' for column 'r_reporterid' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO rep...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Report.php(13): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Report.php(11): App\Model\Report->reportComment('60', 'undefined')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Report.php(27): App\Domain\Report->reportComment('60', 'undefined')
+#5 [internal function]: App\Api\Report->reportComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-31 16:14:26|ERROR|App.Report.ReportComment|PDOException: Column 'r_commentid' cannot be null in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO rep...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Report.php(13): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Report.php(11): App\Model\Report->reportComment(NULL, NULL, NULL, NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Report.php(26): App\Domain\Report->reportComment(NULL, NULL, NULL, NULL)
+#5 [internal function]: App\Api\Report->reportComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-31 16:19:29|ERROR|App.Comment.AddOne|PDOException: Incorrect integer value: 'undefined' for column 'cu_userid' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO com...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Useful.php(14): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(52): App\Model\Useful->addOne('useful', 'undefined', '60')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(72): App\Domain\Comment->addOne('useful', 'undefined', '60')
+#5 [internal function]: App\Api\Comment->addOne()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-31 16:36:03|ERROR|App.Report.ReportCourse|PDOException: Column 'r_courseid' cannot be null in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/CourseReport.php(13): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Report.php(16): App\Model\CourseReport->reportCourse(NULL, NULL, NULL, NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Report.php(35): App\Domain\Report->reportCourse(NULL, NULL, NULL, NULL)
+#5 [internal function]: App\Api\Report->reportCourse()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-31 16:36:10|ERROR|App.Report.ReportCourse|PDOException: Column 'r_courseid' cannot be null in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/CourseReport.php(13): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Report.php(16): App\Model\CourseReport->reportCourse(NULL, '\xE9\x87\x8D\xE5\xA4\x8D', '\xE4\xB8\xBE\xE6\x8A\xA5\xE8\xBF\x99\xE8\xAF\xBE', '12312312@qq.com')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Report.php(35): App\Domain\Report->reportCourse(NULL, '\xE9\x87\x8D\xE5\xA4\x8D', '\xE4\xB8\xBE\xE6\x8A\xA5\xE8\xBF\x99\xE8\xAF\xBE', '12312312@qq.com')
+#5 [internal function]: App\Api\Report->reportCourse()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-31 16:36:13|ERROR|App.Report.ReportCourse|PDOException: Column 'r_courseid' cannot be null in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/CourseReport.php(13): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Report.php(16): App\Model\CourseReport->reportCourse(NULL, NULL, NULL, NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Report.php(35): App\Domain\Report->reportCourse(NULL, NULL, NULL, NULL)
+#5 [internal function]: App\Api\Report->reportCourse()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}

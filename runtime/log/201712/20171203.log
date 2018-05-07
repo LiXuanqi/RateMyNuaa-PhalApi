@@ -1,0 +1,88 @@
+2017-12-03 00:04:32|ERROR|App.Comment.SubmitComment|PDOException: Incorrect integer value: '' for column 'cc_grade' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(24): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment('100', '5', '5', '5', '', '1', '2017-12-03', '\xE9\x97\xAD\xE5\x8D\xB7')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(35): App\Domain\Comment->submitComment('100', '5', '5', '5', '', '1', '2017-12-03', '\xE9\x97\xAD\xE5\x8D\xB7')
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-03 00:09:45|ERROR|App.Comment.SubmitComment|PDOException: Incorrect integer value: '' for column 'cc_grade' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(24): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment('123123', '2', '2', '2', '', '1', '2017-12-03', '\xE9\x97\xAD\xE5\x8D\xB7')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(35): App\Domain\Comment->submitComment('123123', '2', '2', '2', '', '1', '2017-12-03', '\xE9\x97\xAD\xE5\x8D\xB7')
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-03 00:10:06|ERROR|App.Comment.SubmitComment|PDOException: Incorrect integer value: '' for column 'cc_grade' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(24): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment('000', '1', '3', '2', '', '1', '2017-12-03', '\xE9\x97\xAD\xE5\x8D\xB7')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(35): App\Domain\Comment->submitComment('000', '1', '3', '2', '', '1', '2017-12-03', '\xE9\x97\xAD\xE5\x8D\xB7')
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-03 00:10:07|ERROR|App.Comment.SubmitComment|PDOException: Column 'cc_content' cannot be null in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(24): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment(NULL, NULL, NULL, NULL, '0', NULL, '2017-12-03', NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(35): App\Domain\Comment->submitComment(NULL, NULL, NULL, NULL, '0', NULL, '2017-12-03', NULL)
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-03 00:20:10|ERROR|App.Comment.SubmitComment|PDOException: Incorrect integer value: '' for column 'cc_grade' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(24): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment('31231', '3', '1', '2', '', '1', '2017-12-03', '\xE9\x97\xAD\xE5\x8D\xB7')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(35): App\Domain\Comment->submitComment('31231', '3', '1', '2', '', '1', '2017-12-03', '\xE9\x97\xAD\xE5\x8D\xB7')
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-03 00:20:36|ERROR|App.Comment.SubmitComment|PDOException: Incorrect integer value: '' for column 'cc_grade' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(24): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment('123123', '2', '5', '3', '', '1', '2017-12-03', '\xE5\x8D\x8A\xE5\xBC\x80\xE5\x8D\xB7')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(35): App\Domain\Comment->submitComment('123123', '2', '5', '3', '', '1', '2017-12-03', '\xE5\x8D\x8A\xE5\xBC\x80\xE5\x8D\xB7')
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-03 00:22:04|ERROR|App.Comment.SubmitComment|PDOException: Incorrect decimal value: '' for column 'cc_overallquality' at row 1 in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(24): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment('', '', '', '', '', '1', '2017-12-03', '')
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(36): App\Domain\Comment->submitComment('', '', '', '', '', '1', '2017-12-03', '')
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2017-12-03 00:22:06|ERROR|App.Comment.SubmitComment|PDOException: Column 'cc_content' cannot be null in /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php:261
+Stack trace:
+#0 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cou...', Array)
+#1 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/notorm/src/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /Users/lixuanqi/Github/rate/backend/src/app/Model/Comment.php(24): NotORM_Result->insert(Array)
+#3 /Users/lixuanqi/Github/rate/backend/src/app/Domain/Comment.php(34): App\Model\Comment->submitComment(NULL, NULL, NULL, NULL, '0', NULL, '2017-12-03', NULL)
+#4 /Users/lixuanqi/Github/rate/backend/src/app/Api/Comment.php(36): App\Domain\Comment->submitComment(NULL, NULL, NULL, NULL, '0', NULL, '2017-12-03', NULL)
+#5 [internal function]: App\Api\Comment->submitComment()
+#6 /Users/lixuanqi/Github/rate/backend/vendor/phalapi/kernal/src/PhalApi.php(49): call_user_func(Array)
+#7 /Users/lixuanqi/Github/rate/backend/public/index.php(9): PhalApi\PhalApi->response()
+#8 {main}
